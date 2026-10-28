@@ -59,7 +59,7 @@ elif operation == "**":
   print(round(result, 3))
 elif operation == "/":
   if ( num2==0 ):
-   print(round(0))
+   print("cannot divide by zero")
 else:
   result = num1 / num2
   print(round(result, 3))
