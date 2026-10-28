@@ -51,8 +51,15 @@ elif operation == "-":
 elif operation == "*":
   result = num1 * num2
   print(round(result, 3))
+elif operation == "%":
+  result = num1 % num2
+  print(round(result, 3))
+elif operation == "**":
+  result = num1 ** num2
+  print(round(result, 3))
 elif operation == "/":
   if ( num2==0 ):
    print(round(0))
 else:
   result = num1 / num2
+  print(round(result, 3))
